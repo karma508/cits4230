@@ -1,0 +1,9 @@
+﻿#orderList li {
+	list-style:decimal;
+	margin-bottom:10px;
+}
+
+#unOrderList li {
+	list-style:lower-latin;
+	margin-bottom:10px;
+}

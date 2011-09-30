@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>SurveyGuru - Sample Survey</title>
+
+<!-- #EndEditable -->
+
+<link rel="stylesheet" type="text/css" href="css/samplePageStyle.css" />
+</head>
+
+<body class="wrapper">
+	<div class="header">
+		<div class="left"><img src="images/logo_ft.png" alt="Company Logo" /></div>
+		<h3 class="right" style="padding-top:30px">Sample Survey - DEMO ONLY</h3>
+	</div>
+	
+	<!-- #BeginEditable "body" -->
+	
+	<div class="body">
+		
+	</div>
+	
+	<!-- #EndEditable -->
+	
+	<div class="footer">
+		<div id="sButton">
+			<!-- #BeginEditable "footer" -->
+			<!--<a href="#"><input name="back" type="button" value="Back" style="width: 80px" /></a>-->
+			<a href="#"><input name="next" type="button" value="Next" style="width: 80px" /></a>
+		<!-- #EndEditable -->
+		</div>
+	</div>
+</body>
+
+</html>

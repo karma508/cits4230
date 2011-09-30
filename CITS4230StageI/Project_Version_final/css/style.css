@@ -1,0 +1,327 @@
+﻿/* Global Properties */
+* {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	background:url(../images/bg.jpg), #161616;
+	color:#000000;
+}
+
+img {
+	border:0;
+}
+
+.bg {
+	width:100%;
+	background:url(../images/bg.jpg) no-repeat center 0;
+}
+
+a.link {color:#3366FF; text-decoration:none}
+
+a.link:hover {color:#cc9900}
+
+.wrapper {
+	width: 960px;
+	padding:0;
+	margin:0 auto;
+	font-size:small;
+	position:relative;
+}
+
+.wrapper2 {width:100%; overflow:hidden}
+	
+
+/* header */
+.header {
+	width:100%;
+	margin-bottom:-16px;
+	position:relative;
+	z-index:1;
+}
+.row-1 {
+	width:100%;
+	height:110px;
+	overflow:hidden;
+	padding-top:10px;
+}
+
+.row-2 {
+	width:100%;
+	min-height:85px;
+	position:relative;
+	z-index:1;
+}
+
+.row-3 {
+	width:100%;
+	margin-top:-20px;
+	min-height:490px;
+	background-color:#fff;
+	position:relative;
+	z-index:2;
+	border-radius:18px 18px 0 0;
+	-webkit-border-radius:18px 18px 0 0;
+}
+
+h1 {padding:0; position:relative; float:left}
+
+/* top right navigation */
+#top_nav {float:right; padding:0 0 0 0}
+#top_nav li {float:left; padding-top: 25px; padding-left:5px}
+#top_nav a {
+	display:block;
+	background:url(../images/top_nav_bg.gif) no-repeat,#ffffff;
+	width:80px;
+	font-size:13px;
+	line-height:30px;
+	color:#003333;
+	text-align:center;
+	text-decoration:none;
+}
+#top_nav a:hover {color:#fff;background:#9900cc}
+
+/* main menu */
+.menu {width:100%}
+.menu li {float:left; position:relative; margin-right:1px}
+.menu li.last-item {margin:0}
+.menu li a {
+	display:inline-block;
+	width:191.2px;
+	font-size:17px;
+	line-height:1em;
+	padding:18px 0 36px;
+	margin-top:10px;
+	color:#fff;
+	background:#660099;
+	text-align:center;
+	text-decoration:none;
+	border-radius:18px 18px 0 0;
+	-webkit-border-radius:18px 18px 0 0;
+}
+.menu li a.active, .menu li a:hover {color:#fff; background:#0066cc; padding:28px 0 36px; margin:0}
+
+/* image slider */
+.SliderName_2 {
+	float: left;
+	padding-left:25px;
+	padding-top:3px;
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+}
+
+.SliderNamePrev_2 {
+	background: url(../images/left.png) no-repeat left center;
+	width: 50px;
+	height: 450px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+}
+
+.SliderNameNext_2 {
+	background:url(../images/right.png) no-repeat right center;
+	width: 50px;
+	height: 450px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+}
+
+/* content */
+.home-main-content {
+	width: 100%;
+	padding:30px 0;
+	margin-top:10px;
+	min-height: 400px;
+	background:#fff;
+	font-size:14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	position:relative;
+}
+
+.main-content {
+	width: 100%;
+	padding:30px 0;
+	margin-top:-20px;
+	height:auto;
+	background:#fff;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	z-index:2;
+	border-radius:18px 18px 0 0;
+	-webkit-border-radius:18px 18px 0 0;
+}
+
+.heading {margin-bottom:15px; font-size: 2.55em; color:#9999ff}
+.heading2 {margin-bottom:15px; font-size: 1.85em; color:#9999ff}
+.heading3 {margin-top:15px; margin-bottom:15px; font-size: 1.65em; color:#9999ff}
+.heading4 {margin-top:15px; font-size: 1.35em; color:#9999ff}
+
+.indent {padding:0 32px 0 32px}
+.indent2 {padding:20px 0 0 65px}
+.indent3 {padding:0 0 0 80px}
+
+/* For All Forms */
+#form {display:block}
+#form  label {display:block; height:30px; overflow:hidden}
+#form  input {
+	float:left;
+	width:280px;
+	font-size:13px;
+	line-height:1.23em;
+	color:#0f0f0f;
+	padding:4px 10px;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #ebebeb;
+	background:none
+}
+#form textarea {
+	height:262px;
+	overflow:auto;
+	float:left;
+	width:526px;
+	font-size:13px;
+	line-height:1.23em;
+	color:#0f0f0f;
+	padding:4px 10px;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #ebebeb;
+	background:none
+}
+/* Contact Form */
+.text-form {
+	float:left;
+	display:block;
+	font-size:14px;
+	width:75px;
+	line-height:1.78em;
+	color:#0f0f0f;
+}
+
+#button {margin: 30px 0 120px 80px}
+#button input {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffff99;
+	font-size:20px;
+	margin:5px 5px;
+	padding:5px 15px;
+	background:url(../images/btn.gif),#3366ff;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#button input:hover {color:#ffff00;background:url(../images/btn1.gif),fuchsia}
+
+/*Registration From*/
+.text-registerForm {
+	float:left;
+	display:block;
+	font-size:14px;
+	width:130px;
+	line-height:1.78em;
+	color:#0f0f0f;
+}
+
+#sign-button {margin: 30px 0 120px 320px}
+#sign-button input {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffff99;
+	font-size:20px;
+	margin:5px 5px;
+	padding:5px 15px;
+	background:url(../images/btn.gif),#3366ff;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+;
+}
+#sign-button input:hover {background:url(../images/btn1.gif),fuchsia}
+
+#log-button {margin: 30px 0 120px 320px}
+#log-button input {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffff99;
+	font-size:20px;
+	margin:5px 5px;
+	padding:5px 15px;
+	background:url(../images/btn.gif),#3366ff;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#log-button input:hover {background:url(../images/btn1.gif),fuchsia}
+
+/* footer */	
+#footer {
+	width:100%;
+	height:150px;
+	color:#fff;
+	margin-top:-20px;
+	overflow:hidden;
+	padding-bottom:10px;
+	background:#330099;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	border-radius:0 0 18px 18px;
+	-webkit-border-radius:0 0 18px 18px;
+}
+
+#footer li {padding: 4px}
+
+#footer a {color:#fff; text-decoration:none}
+
+#footer a:visited {color:#ffff66}
+
+#footer a:hover {color:#ffccff; text-decoration:underline}
+
+#footer-left {
+	float:left;
+	margin:30px 0 10px 30px;
+}
+
+#footer-center {
+	float:left;
+	margin:50px 0px 10px 170px;
+}
+
+#footer-center2 {
+	float:left;
+	margin:50px 0 0 100px;
+}
+
+.item-1 {background:url(../images/fb.png) 0 1px no-repeat}
+.item-2 {background:url(../images/twitter.png) 0 1px no-repeat}
+
+#footer-right {
+	float:right;
+	margin:70px 30px 10px 0;
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,68 @@
+﻿.clear {
+	clear:both;
+}
+
+.column {
+	float:left;
+	background:#4b0082;
+	color:#ffffff;
+	width:288px;
+	margin: 5px;
+	min-height: 480px;
+	border-radius:18px 18px 18px 18px;
+	-webkit-border-radius:18px 18px 18px 18px;
+}
+
+.pPadding {
+	margin:15px;
+}
+
+.pList {
+	float:left;
+	background:#ffffff;
+	color:#4b0082;
+	width:210px;
+	margin: 5px;
+	padding:5px 20px;
+	border-radius:18px 18px 18px 18px;
+	-webkit-border-radius:18px 18px 18px 18px;
+}
+
+#signBut {
+	margin-left: 150px;
+}
+
+#signBut input {
+	margin:5px 5px;
+	background-image:url(../images/signups1.png);
+	background-repeat:no-repeat;
+}
+
+#signBut input:hover {background-image:url(../images/signups2.png)}
+
+
+.pHeading {margin-bottom:15px; font-size: 2.55em}
+.pHeading2 {margin-bottom:15px; font-size: 1.85em}
+.pHeading3 {margin-top:15px; margin-bottom:15px; font-size: 1.65em}
+.pHeading4 {margin-top:15px; font-size: 1.35em}
+
+.pButton {padding-top: 250px; padding-left:130px}
+
+.pButton input {
+	display:inline-block;
+	text-decoration:none;
+	color:#ffff99;
+	font-size:16px;
+	margin:5px 5px;
+	padding:5px 10px;
+	background-image:url(../images/btn.gif);
+	border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.pButton input:hover {color:#ffff00;background-image:url(../images/btn1.gif)}
+
+
+
+
+
